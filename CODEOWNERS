@@ -1,0 +1,47 @@
+# CODEOWNERS file for SNL Business repositories
+# This file defines individuals or teams responsible for code review and approval
+# 
+# Syntax: <file-pattern> @username @org/team-name
+# More specific patterns override less specific ones
+
+# Default owners for everything in the repository
+# All changes require approval from at least one of these owners
+* @snl-Business/engineering-leads
+
+# Protect main and critical configuration files
+/.github/ @snl-Business/devops @snl-Business/engineering-leads
+/go.mod @snl-Business/backend-team
+/go.sum @snl-Business/backend-team
+/package.json @snl-Business/frontend-team
+/README.md @snl-Business/engineering-leads
+
+# Go source code - requires backend team review
+*.go @snl-Business/backend-team
+
+# React/TypeScript code - requires frontend team review
+*.tsx @snl-Business/frontend-team
+*.ts @snl-Business/frontend-team
+*.jsx @snl-Business/frontend-team
+*.js @snl-Business/frontend-team
+
+# Configuration files - requires DevOps approval
+*.yml @snl-Business/devops
+*.yaml @snl-Business/devops
+Dockerfile @snl-Business/devops
+docker-compose.yml @snl-Business/devops
+
+# Database migrations and schemas
+/migrations/ @snl-Business/backend-team @snl-Business/database-admins
+/schema/ @snl-Business/backend-team @snl-Business/database-admins
+
+# CI/CD pipelines - requires DevOps and leads
+/.github/workflows/ @snl-Business/devops @snl-Business/engineering-leads
+/azure-pipelines*.yml @snl-Business/devops @snl-Business/engineering-leads
+
+# Security-sensitive files
+/auth/ @snl-Business/security-team @snl-Business/engineering-leads
+/middleware/ @snl-Business/security-team @snl-Business/backend-team
+
+# Documentation - any team member can approve
+/docs/ @snl-Business/engineering-team
+*.md @snl-Business/engineering-team
