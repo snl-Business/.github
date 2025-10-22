@@ -6,42 +6,4 @@
 
 # Default owners for everything in the repository
 # All changes require approval from at least one of these owners
-* @kuarahy @snl-Business/engineering-leads
-
-# Protect main and critical configuration files
-/.github/ @kuarahy @snl-Business/devops @snl-Business/engineering-leads
-/go.mod @kuarahy @snl-Business/backend-team
-/go.sum @kuarahy @snl-Business/backend-team
-/package.json @kuarahy @snl-Business/frontend-team
-/README.md @kuarahy @snl-Business/engineering-leads
-
-# Go source code - requires backend team review
-*.go @kuarahy @snl-Business/backend-team
-
-# React/TypeScript code - requires frontend team review
-*.tsx @kuarahy @snl-Business/frontend-team
-*.ts @kuarahy @snl-Business/frontend-team
-*.jsx @kuarahy @snl-Business/frontend-team
-*.js @kuarahy @snl-Business/frontend-team
-
-# Configuration files - requires DevOps approval
-*.yml @kuarahy @snl-Business/devops
-*.yaml @kuarahy @snl-Business/devops
-Dockerfile @kuarahy @snl-Business/devops
-docker-compose.yml @kuarahy @snl-Business/devops
-
-# Database migrations and schemas
-/migrations/ @kuarahy @snl-Business/backend-team @snl-Business/database-admins
-/schema/ @kuarahy @snl-Business/backend-team @snl-Business/database-admins
-
-# CI/CD pipelines - requires DevOps and leads
-/.github/workflows/ @kuarahy @snl-Business/devops @snl-Business/engineering-leads
-/azure-pipelines*.yml @kuarahy @snl-Business/devops @snl-Business/engineering-leads
-
-# Security-sensitive files
-/auth/ @kuarahy @snl-Business/security-team @snl-Business/engineering-leads
-/middleware/ @kuarahy @snl-Business/security-team @snl-Business/backend-team
-
-# Documentation - any team member can approve
-/docs/ @snl-Business/engineering-team
-*.md @snl-Business/engineering-team
+* @kuarahy @snl-Business/Reviewers
