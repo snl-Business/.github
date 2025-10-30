@@ -12,6 +12,7 @@ Brief description (2-3 sentences) explaining the purpose, who it's for, and what
 
 ## 📋 Table of Contents
 
+- [How to Use](#-how-to-use)
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
 - [Quick Start](#-quick-start)
@@ -27,11 +28,17 @@ Brief description (2-3 sentences) explaining the purpose, who it's for, and what
 - [Contributing](#-contributing)
 - [Version History](#-version-history)
 - [License](#-license)
-- [Support](#-support)
+- [Opening Issues](#-opening-issues)
 
 ---
 
+## 📖 How to Use This Template
+
+Use each section as needed. A README should help a developer to self-onboard to a project without back and forth, as Open Source projects do. Don't make assumptions that people know things, no matter how experienced they are to anything. Over-documenting it over under-documenting it. First make the document exist, worry about making it pretty later. For LLM leverage, the standard is Claude Sonnet 4.5. 
+
 ## ✨ Features
+
+If there are features that you want to point out, add them here.
 
 - 🚀 **Feature 1** - Brief description
 - 🎨 **Feature 2** - Brief description
@@ -42,7 +49,7 @@ Brief description (2-3 sentences) explaining the purpose, who it's for, and what
 
 ## 📦 Prerequisites
 
-Before you begin, ensure you have the following installed:
+Pick one from below to add prerequisites, delete the non-necessary ones.
 
 ### For C# Projects
 - **[.NET SDK](https://dotnet.microsoft.com/download)** - v8.0 or higher
@@ -79,7 +86,7 @@ Before you begin, ensure you have the following installed:
 
 ## 🚀 Quick Start
 
-Get up and running in 5 minutes:
+Explain how to get the project running in a straightforward way:
 
 ```bash
 # Clone the repository
@@ -549,11 +556,13 @@ This project follows **NASA Coding Standards** and **SOLID Principles**:
 - ✅ **Comments**: Explain "why", not "what"
 - ✅ **Error handling**: Always handle errors explicitly
 - ✅ **No magic numbers**: Use named constants
+- ✅ **No warnings**: Code must compile/run without warnings
 
 **Code Style:**
 - Indentation: [tabs/spaces], [size]
 - Naming: [camelCase/snake_case/PascalCase]
 - Line length: 100 characters maximum
+- **Zero tolerance for warnings**: All compiler/linter warnings must be resolved
 
 ### Git Commit Convention
 
@@ -924,28 +933,18 @@ If you encounter issues not covered here:
 
 ---
 
-## 🤝 Contributing
+## 🔀 Pull Requests
 
-We welcome contributions! Please follow these guidelines:
-
-### Contribution Process
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Follow coding standards** (see Development section)
-4. **Write tests** for new functionality
-5. **Update documentation** as needed
-6. **Commit your changes** (use semantic commit messages)
-7. **Push to your branch** (`git push origin feature/amazing-feature`)
-8. **Open a Pull Request** using the PR template
+We welcome improvements! When submitting a PR:
 
 ### Pull Request Guidelines
 
 - Use the PR template (`.github/PULL_REQUEST_TEMPLATE.md`)
-- Link related issues
+- Link related issues with `Fixes #issue_number`
 - Ensure all tests pass
-- Maintain code coverage
+- Maintain code coverage (minimum 70%)
 - Follow NASA coding standards
+- No compiler/linter warnings
 - Request review from team members
 
 ### Code Review Process
@@ -983,26 +982,39 @@ This software is proprietary to Sargent & Lundy LLC and is intended solely for i
 
 ---
 
-## 📞 Support
+## � Opening Issues
 
-### Team Contacts
+### How to Report Issues
 
-- **Project Lead**: [Name] - [email@company.com]
-- **Tech Lead**: [Name] - [email@company.com]
-- **DevOps**: [Name] - [email@company.com]
+When you encounter a problem:
 
-### Resources
+1. **Search existing issues** - Check if it's already reported
+2. **Create a new issue** - Use [GitHub Issues](https://github.com/snl-Business/[project-name]/issues/new)
+3. **Provide details:**
+   - Clear description of the problem
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Environment (OS, versions, browser)
+   - Screenshots or error logs
 
-- **GitHub Repository**: [https://github.com/snl-Business/[project-name]](https://github.com/snl-Business/[project-name])
-- **Issues**: [GitHub Issues](https://github.com/snl-Business/[project-name]/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/snl-Business/[project-name]/discussions)
-- **Wiki**: [Project Wiki](https://github.com/snl-Business/[project-name]/wiki)
+### Issue Types
 
-### Getting Support
+- 🐛 **Bug Report** - Something isn't working
+- 💡 **Feature Request** - New functionality suggestion
+- 📝 **Documentation** - Improvements to docs
+- ❓ **Question** - Need help or clarification
 
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/snl-Business/[project-name]/issues/new)
-- 💡 **Feature Requests**: [Submit via Asana](https://form.asana.com/?k=your-form-id)
-- 🔧 **Service Issues**: [Service Hub](https://sargentandlundy-amc.ivanticloud.com/service/)
+### Issue Lifecycle
+
+- Issues are triaged and assigned priority
+- Track progress through labels and comments
+- **Close issues** when resolved or fixed
+- Reference the issue in your PR: `Fixes #123`
+
+### Additional Resources
+
+- **Feature Requests**: [Submit via Asana](https://form.asana.com/?k=your-form-id)
+- **Service Issues**: [Service Hub](https://sargentandlundy-amc.ivanticloud.com/service/)
 
 ---
 
@@ -1012,6 +1024,10 @@ This software is proprietary to Sargent & Lundy LLC and is intended solely for i
 - **[Related Project 2]** - Description
 
 ---
+
+<p align="center">
+  <em>"Not all those who wander are lost"</em>
+</p>
 
 <p align="center">
   Made with ❤️ by the Sargent & Lundy Development Team
