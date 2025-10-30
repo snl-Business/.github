@@ -1,4 +1,4 @@
-# [Project Name]
+﻿# [Project Name]
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![Language](https://img.shields.io/badge/language-[Language]-[color].svg)
@@ -982,7 +982,15 @@ This software is proprietary to Sargent & Lundy LLC and is intended solely for i
 
 ---
 
-## � Opening Issues
+## 🐛 Opening Issues
+
+### How to Report Issues
+
+When you encounter a problem:
+
+1. **Search existing issues** - Check if it's already reported
+2. **Create a new issue** - Use [GitHub Issues](https://github.com/snl-Business/[project-name]/issues/new)
+3. **Provide details:** 🐛 Opening Issues
 
 ### How to Report Issues
 
