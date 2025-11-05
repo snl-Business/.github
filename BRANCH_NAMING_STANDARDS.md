@@ -139,19 +139,19 @@ main → MH/feature-new-feature → dev → main
 
 ### Bug Fixes
 ```
-dev → LP/bugfix-fix-issue → dev
+dev → MH/bugfix-fix-issue → dev
 ```
 
 ### Hotfixes (Production Issues)
 ```
-main → KMR/hotfix-critical-fix → main
+main → MH/hotfix-critical-fix → main
                                  ↓
                                 dev (merge back)
 ```
 
 ### Release Process
 ```
-dev → JD/release-v2.1.0 → main
+dev → MH/release-v2.1.0 → main
                          ↓
                         dev (merge back)
 ```
@@ -179,7 +179,7 @@ If you have questions about branch naming or need clarification, please:
 Our branch naming convention honors [Margaret Hamilton](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)), the computer scientist and systems engineer who led the team that developed the onboard flight software for NASA's Apollo program. Her work was critical to the success of the Apollo 11 moon landing.
 
 <div align="center">
-  <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201608/margaret-hamilton-mit-apollo-code_0.jpg?itok=gcN5sX1_" alt="Margaret Hamilton standing next to listings of the Apollo Guidance Computer source code" width="500">
+  <img src="./images/margaret-hamilton-apollo-code.jpg" alt="Margaret Hamilton standing next to listings of the Apollo Guidance Computer source code" width="600">
   <p><i>Margaret Hamilton with the Apollo Guidance Computer source code she and her team developed at MIT</i></p>
 </div>
 
