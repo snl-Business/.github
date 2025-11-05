@@ -174,5 +174,18 @@ If you have questions about branch naming or need clarification, please:
 
 ---
 
+## About Our Naming Convention
+
+Our branch naming convention honors [Margaret Hamilton](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)), the computer scientist and systems engineer who led the team that developed the onboard flight software for NASA's Apollo program. Her work was critical to the success of the Apollo 11 moon landing.
+
+<div align="center">
+  <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201608/margaret-hamilton-mit-apollo-code_0.jpg?itok=gcN5sX1_" alt="Margaret Hamilton standing next to listings of the Apollo Guidance Computer source code" width="500">
+  <p><i>Margaret Hamilton with the Apollo Guidance Computer source code she and her team developed at MIT</i></p>
+</div>
+
+By using developer initials in our branch names, we follow in the tradition of personalizing our work and taking ownership of our code—just as Margaret Hamilton did when she coined the term "software engineering" and championed rigorous testing and error handling that saved the Apollo 11 mission.
+
+---
+
 Made with ❤️ by the SNL Business Engineering Team
 
