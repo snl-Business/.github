@@ -7,7 +7,7 @@ This document outlines the branch naming conventions for all SNL Business reposi
 All feature branches should follow this format:
 
 ```
-<dev-initials>/<type>-<short-description>
+<dev-initials or first name>/<type>-<short-description>
 ```
 
 **Example:**
