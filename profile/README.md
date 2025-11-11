@@ -17,7 +17,7 @@ SNL Business is committed to building high-quality, maintainable software follow
 ### **Standards & Documentation**
 - **[coding-standards](https://github.com/snl-Business/coding-standards)** - Organization-wide coding standards and style guides
   - [C# Coding Standards and Style Guide](https://github.com/snl-Business/coding-standards/blob/main/c-sharp/C%23%20Standards%20and%20Style%20Guide.md)
-- **[.github](https://github.com/snl-Business/.github)** - Organization defaults (CODEOWNERS, PR templates, issue templates)
+- **[.github](https://github.com/snl-Business/.github)** - Organization defaults (Github standards, reviewers, branch naming, issues, and PR templates)
 
 ## 🎯 Development Standards
 
