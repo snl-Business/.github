@@ -98,7 +98,7 @@ src/
 
 **Rules:**
 - Use PascalCase for all parts
-- Domain can be acronym (SPPQ) or proper case (Sppq) - be consistent per project
+- Acronyms for domain names (SPPQ)
 - Follow layered architecture: Core → Domain → Services → Process/API
 
 ---
@@ -156,16 +156,6 @@ src/
 
 **Configuration:**
 - lowercase with dots: `appsettings.json`, `azure-pipelines.yml`
-
-### Branch Names
-
-**Format:** `<type>/<description-in-kebab-case>`
-
-**Examples:**
-- `feature/add-specialty-groups`
-- `bugfix/fix-auth-timeout`
-- `refactor/extract-form-components`
-- `docs/update-readme`
 
 ---
 
