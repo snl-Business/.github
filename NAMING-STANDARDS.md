@@ -161,6 +161,5 @@ src/
 
 ## References
 
-- Teams Discussion: [Sargent Lundy Namespace Pattern](https://teams.microsoft.com/l/message/19:d4e1c3a5b2f74e9a8c6d5e7f8a9b0c1d@thread.tacv2/1729795454000)
 - C# Coding Standards: `coding-standards/c-sharp/C# Standards and Style Guide.md`
 - Azure Naming Conventions: [Microsoft Docs](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
